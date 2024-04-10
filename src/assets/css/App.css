@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+body{
+  background-color: rgba(195, 160, 195, 0.542);
+}
+
+.container-captcha{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
